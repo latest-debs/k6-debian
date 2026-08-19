@@ -1,0 +1,41 @@
+{
+  "gate": "warn",
+  "license": {
+    "declared": "AGPL-3.0",
+    "detected": [],
+    "license_files": [],
+    "matches": false,
+    "status": "warn",
+    "detail": "declared AGPL-3.0 but no license/SPDX content detected in archive"
+  },
+  "asset": {
+    "format": "tar.gz",
+    "size": 30511782,
+    "valid": true,
+    "is_html": false,
+    "binary": "k6",
+    "elf_arch": "x86-64",
+    "status": "pass",
+    "detail": "valid tar.gz archive containing 1 ELF executable(s); first: k6 (x86-64); release covers: amd64 arm64 "
+  },
+  "architectures": {
+    "covered": [
+      "amd64",
+      "arm64"
+    ],
+    "missing": [
+      "armel",
+      "armhf",
+      "i386",
+      "ppc64el",
+      "s390x",
+      "riscv64",
+      "loong64"
+    ],
+    "assets": {
+      "amd64": "k6-v2.2.0-linux-amd64.tar.gz",
+      "arm64": "k6-v2.2.0-linux-arm64.tar.gz"
+    }
+  },
+  "vetted_at": "2026-08-19T15:19:52Z"
+}

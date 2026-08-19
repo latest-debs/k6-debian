@@ -1,0 +1,27 @@
+{
+  "package": "k6",
+  "upstream_repo": "grafana/k6",
+  "version": "v2.2.0",
+  "tag": "v2.2.0",
+  "published_at": "2026-08-10T14:01:35Z",
+  "license": "AGPL-3.0",
+  "asset": "k6-v2.2.0-linux-amd64.tar.gz",
+  "asset_size": 30511782,
+  "sha256": "b5a8003c86f35f5cd5ceef1490312c48e587696c94d998cefc6d7b3b4cb1597d",
+  "expected_sha256": "b5a8003c86f35f5cd5ceef1490312c48e587696c94d998cefc6d7b3b4cb1597d",
+  "checksum_source": "k6-v2.2.0-checksums.txt",
+  "checksum_verified": true,
+  "assets": {
+    "k6-v2.2.0-linux-arm64.tar.gz": {
+      "sha256": "4ecd64cadcc792402d16293836115480419c4447c032858f564852d98f1bf54c",
+      "size": 28033976
+    },
+    "k6-v2.2.0-linux-amd64.tar.gz": {
+      "sha256": "b5a8003c86f35f5cd5ceef1490312c48e587696c94d998cefc6d7b3b4cb1597d",
+      "size": 30511782
+    }
+  },
+  "asset_count": 2,
+  "vetted_at": "2026-08-19T15:19:51Z",
+  "vetted_by": ""
+}
